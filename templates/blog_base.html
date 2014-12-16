@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% block extra_head %}
+
+{% endblock %}
+
+{% block header %}
+    {% block menu %}
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 h3" style="margin-top: 10px" >
+                            <a class="brand" href="{% url 'index' %}">GOONER'S SITE</a>
+                        </div>
+                        <div class="col-md-1 h4" style="margin-top: 15px">
+
+                                <a href="{% url 'czm_blog_list' %}">博客</a>
+                        </div>
+                        <div class="col-md-1 h4" style="margin-top: 15px">
+                                <a href="https://github.com/caizhimin/my_blog.git" target="_blank">源码</a>
+                        </div>
+                        <div class="col-md-1 h4" style="margin-top: 15px">
+                                <a href="#">关于</a>
+                        </div>
+
+                        <div class="col-md-1 h4" style="margin-top: 15px">
+                                <a href="{% url 'contact' %}">联系</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% endblock %}
+
+{% endblock %}
+
+
+

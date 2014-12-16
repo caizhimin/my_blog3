@@ -1,0 +1,128 @@
+{% extends "blog_base.html" %}
+
+
+{% block extra_script %}
+{#<script>#}
+{#    $(document).ready(function(){#}
+{#        $('#search_icon').click(function(){#}
+{#            var search_content=$('#search').val();#}
+{#            alert(search_content);#}
+{#            window.location = '{% url 'czm_blog_search' search_content %}'#}
+{##}
+{#        })#}
+{#    })#}
+{#</script>#}
+{% endblock %}2222
+
+
+{% block title %} blog list {% endblock %}
+
+
+{% block article %}
+    {% if search_blogs %}
+        <!--如果能够搜索到blog存在就显示搜索的blog-->
+    <article class="content-main">
+        {% if search_blogs_count %}
+            <p>共找到{{ search_blogs_count }}条相关博客</p>
+        {% endif %}
+        {% for search_blog in search_blogs %}
+            <h4><a href="{% url 'czm_blog_show' search_blog.id %}">{{ search_blog.title }}</a></h4>
+            <p class="muted">
+                {% for tag in search_blog.tags.all %}
+                    <i class="icon-tag"></i><small>{{ tag }}</small>
+                {% endfor %}
+            </p>
+            <div>{{ search_blog.content|safe}}</div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <p class="muted"><i class="icon-time"></i>
+                        <small>{{ search_blog.publish_time|date:'Y-m-d H:m:s' }}</small>
+                    </p>
+                </div>
+            </div>
+        <hr>
+        {% endfor %}
+    </article>
+
+    {% else %}
+        {% if not search_result %}
+                <p>抱歉，未搜索到相关内容,显示当前最新的博客</p>
+        {% endif %}
+    <article class="content-main">
+        {% for czmblog in czmblogs %}
+            <h4><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></h4>
+            <p class="muted">
+                {% for tag in czmblog.tags.all %}
+                    <i class="icon-tag"></i><small>{{ tag }}</small>
+                {% endfor %}
+            </p>
+            <div>{{ czmblog.content|safe}}</div>
+
+            <div class="row-fluid">
+                <div class="span3">
+                    <p class="muted"><i class="icon-time"></i>
+                        <small>{{ czmblog.publish_time|date:'Y-m-d H:m:s' }}</small>
+                    </p>
+                </div>
+            </div>
+        <hr>
+        {% endfor %}
+    </article>
+    {% endif %}
+{% endblock %}
+
+
+
+
+
+
+{% block aside %}
+    <a class="btn" href="{# {% url 'add_czm_blog' %} #}"></a>
+    <form action="" method="get" id="search_form">
+        <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客">
+        <div class="searchIcon" onclick="$('#search_form').submit();" id="search_icon"><a>搜索</a></div>
+    </form>
+    <div class="rssBox bg1 mt10 textCenter">
+        <a class="" href="">订阅我的博客</a>
+    </div>
+    {% block tags %}
+        <div class="well">
+            <div>
+                <p>标签</p>
+            </div>
+            {% for tag in tags %}
+                <span class="label"><a href="{% url 'filter_czm_blog_by_tag' tag.id %}">{{ tag.tag_name }}</a></span>
+            {% endfor %}
+        </div>
+    {% endblock %}
+    <div class="listBox2 mt37">
+        <ul>
+            <li>最受欢迎的</li>
+            {% for czmblog_order_by_comment_count in czmblogs_order_by_comment_count %}
+                <a href="{% url 'czm_blog_show' czmblog_order_by_comment_count.id %}">
+                    <li>{{ czmblog_order_by_comment_count.title }}</li></a>
+            {% endfor %}
+        </ul>
+        <ul>
+            <li>推荐博客</li>
+            {% for random_eight_czmblog in random_eight_czmblogs %}
+                 <a href="{% url 'czm_blog_show' random_eight_czmblog.id %}">
+                    <li>{{ random_eight_czmblog.title }}</li></a>
+            {% endfor %}
+
+        </ul>
+    </div>
+    <div class="listBox2 mt37">
+        <ul>
+            <li>友情链接</li>
+            <a href="http://www.baidu.com"><li>百度</li></a>
+
+        </ul>
+    </div>
+{% endblock %}
+
+
+
+
+
+

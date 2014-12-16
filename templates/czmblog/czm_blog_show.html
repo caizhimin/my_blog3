@@ -1,0 +1,90 @@
+{% extends "czm_blog_list.html" %}
+
+
+
+{% block title%}{{ blog.title|title }}{% endblock %}
+
+{% block article %}
+    <div class="content">
+        <div class="topBox">
+            <div class="timeBox fltflt enFort textCenter">
+                <span class="fs36" id="time_year">{{ blog.publish_time|date:'Y' }}</span>
+                <span class="fs24" id="time_date">{{ blog.publish_time|date:'Nd' }}</span>
+            </div>
+            <div class="infoBox" fltrt>
+                <div class="fs26 bg1" id="blog_title">
+                    <a href="{% url 'czm_blog_show' blog.id %}"><h3>title:{{ blog.title }}</h3></a>
+                </div>
+                <div class="fs14 bg2" id="">
+                tags:
+                    {% for blog_tag in blog_tags %}
+                        <span class="fltflt" id="blog_tags">{{ blog_tag }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="contentBox bg1">
+            <p>contents:{{ blog.content|safe }}</p>
+        </div>
+    </div>
+{% endblock %}
+
+{% block comments %}
+    {% if comment_count %}
+        <div class="comment_box">
+            <div class="comment_title">
+               <h3>有{{ comment_count }}条留言:</h3>
+            </div>
+
+            {% for comment in comments %}
+                <div class="commentatorInfo bg2">
+                    来自{{ comment.ip_address }}的用户：{{ comment.author }} 发表于{{ comment.publish_time|date:'Y-m-d H:m:s' }}
+                </div>
+                <div class="cmtContent fs14 bg1">
+                    {{ comment.comment }}
+                </div>
+        {% endfor %}
+        </div>
+    {% else %}
+        <div class="comment_box">
+            <h3>看帖不回，内地轮回</h3>
+        </div>
+    {% endif %}
+
+
+    <div class="comment_box">
+        <div class="comment_title">
+            <span class="">您可以在下面填写留言:</span>
+        </div>
+        <div class="背景色">
+            <div class="bg1" id="contact-from_box">
+                <form action="{% url 'czm_blog_comment_add' blog.id %}" method="post" >
+                    {% csrf_token %}
+                    <div>
+                        <input maxlength="50" name="comment_name" placeholder="您的姓名" type="text">
+                    </div>
+
+                    <div>
+                        <input maxlength="75" name="comment_email" placeholder="您的邮箱地址" type="text">
+                    </div>
+                    <div>
+                        <input maxlength="200" name="comment_website" placeholder="您的个人网址" type="text">
+                    </div>
+                    <div>
+                        <textarea cols="40" rows="5" name="comment" placeholder="期待您的评论"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+{% endblock %}
+
+
