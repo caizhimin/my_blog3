@@ -73,11 +73,15 @@
                     {% endfor %}
                 </ul>
             </div>
-
-    </div>
-        <br>
-        <div class="text-center h3 col-md-12" id="blog_nav_box" style="background: #dcdcdc;height: 40px;line-height: 40px">
-            <a href="{% url 'czm_blog_list' %}">进入博客</a>
         </div>
     </div>
+        <br>
+    <div class="container">
+        <div class="row">
+            <div class="text-center h3 col-md-12" id="blog_nav_box" style="background: #dcdcdc;height: 40px;line-height: 40px">
+                <a href="{% url 'czm_blog_list' %}">进入博客</a>
+            </div>
+        </div>
+    </div>
+
 {% endblock %}
