@@ -1,1 +1,16 @@
 .sort{background: #dcdcdc; margin-left: 55px;width: 22%;font-size:110%}
+body{font-family: 'Microsoft YaHei'}
+
+
+.two-list{
+width:200px;
+margin-left:20px;
+padding:0px;
+    line-height: 30px;
+    margin-top: 20px;
+}
+
+.two-list li{
+float:left;
+width:50%;
+}

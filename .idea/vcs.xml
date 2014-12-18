@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="" />
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../Custom_old_version" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$/../LearnSkill2" vcs="svn" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
 

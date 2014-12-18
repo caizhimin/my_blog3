@@ -12,16 +12,20 @@
 {#        })#}
 {#    })#}
 {#</script>#}
-{% endblock %}2222
+{% endblock %}
+
 
 
 {% block title %} blog list {% endblock %}
 
 
 {% block article %}
+    <br><br><br>
     {% if search_blogs %}
         <!--如果能够搜索到blog存在就显示搜索的blog-->
+
     <article class="content-main">
+
         {% if search_blogs_count %}
             <p>共找到{{ search_blogs_count }}条相关博客</p>
         {% endif %}
@@ -42,6 +46,7 @@
             </div>
         <hr>
         {% endfor %}
+
     </article>
 
     {% else %}
@@ -49,6 +54,7 @@
                 <p>抱歉，未搜索到相关内容,显示当前最新的博客</p>
         {% endif %}
     <article class="content-main">
+    <div class="col-md-12">
         {% for czmblog in czmblogs %}
             <h4><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></h4>
             <p class="muted">
@@ -67,7 +73,9 @@
             </div>
         <hr>
         {% endfor %}
+    </div>
     </article>
+
     {% endif %}
 {% endblock %}
 
@@ -77,49 +85,63 @@
 
 
 {% block aside %}
+    <div style="margin-left: 680px">
     <a class="btn" href="{# {% url 'add_czm_blog' %} #}"></a>
-    <form action="" method="get" id="search_form">
-        <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客">
-        <div class="searchIcon" onclick="$('#search_form').submit();" id="search_icon"><a>搜索</a></div>
+    <form action="" method="get" id="search_form" style="margin-left: 40px;width: 500px">
+        <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客" style="height: 30px;width: 180px">
+        <span class="" onclick="$('#search_form').submit();" id="search_icon"><i class="glyphicon glyphicon-search"></i></span>
     </form>
-    <div class="rssBox bg1 mt10 textCenter">
-        <a class="" href="">订阅我的博客</a>
+    <div class="rssBox bg1 mt10 text-center" style="margin-top: 30px">
+        <img src="/static/img/rss.png" width="20%" style="margin-right: 10px;margin-left: -8px;">
+        <a class="" href="" style="margin-left: 5px">订阅我的博客</a>
     </div>
+    <div></div>
+
+
     {% block tags %}
-        <div class="well">
-            <div>
-                <p>标签</p>
+
+            <div class="text-center" style="margin-top: 30px">
+                <p class="h4">标&nbsp;&nbsp;&nbsp;签</p>
             </div>
             {% for tag in tags %}
-                <span class="label"><a href="{% url 'filter_czm_blog_by_tag' tag.id %}">{{ tag.tag_name }}</a></span>
+
+                <ul class="list-unstyled two-list">
+                <li class=""><a href="{% url 'filter_czm_blog_by_tag' tag.id %}">{{ tag.tag_name }}</a></li>
+                </ul>
+
             {% endfor %}
-        </div>
+
     {% endblock %}
-    <div class="listBox2 mt37">
-        <ul>
-            <li>最受欢迎的</li>
+
+
+
+    <div class="listBox2 mt37 text-center " style="margin-top: 30px">
+            <ul class="list-unstyled">
+            <li class="h4" style="margin-bottom: 20px;margin-top: 140px">最受欢迎的</li>
             {% for czmblog_order_by_comment_count in czmblogs_order_by_comment_count %}
                 <a href="{% url 'czm_blog_show' czmblog_order_by_comment_count.id %}">
-                    <li>{{ czmblog_order_by_comment_count.title }}</li></a>
+                    <li style="margin-top: 10px">{{ czmblog_order_by_comment_count.title }}</li></a>
             {% endfor %}
         </ul>
-        <ul>
-            <li>推荐博客</li>
+        <ul class="list-unstyled">
+            <li class="h4" style="margin-bottom: 20px;margin-top: 30px">推荐博客</li>
             {% for random_eight_czmblog in random_eight_czmblogs %}
                  <a href="{% url 'czm_blog_show' random_eight_czmblog.id %}">
-                    <li>{{ random_eight_czmblog.title }}</li></a>
+                    <li style="margin-top: 10px">{{ random_eight_czmblog.title }}</li></a>
             {% endfor %}
 
         </ul>
     </div>
-    <div class="listBox2 mt37">
-        <ul>
-            <li>友情链接</li>
-            <a href="http://www.baidu.com"><li>百度</li></a>
+    <div class="listBox2 mt37 text-center" style="margin-top: 30px">
+        <ul class="list-unstyled">
+            <li class="h4" style="margin-top: 30px">友情链接</li>
+            <li style="margin-top: 20px"><a href="http://www.baidu.com">百度</a></li>
 
         </ul>
     </div>
 {% endblock %}
+</div>
+
 
 
 

@@ -25,9 +25,9 @@
     {% block content %}
 {#        这个区块用来放置页面正文内容. 任何页面正文内容都可能不一样. 它不 包含任何站点导航, #}
 {#        信息头, 页脚, 或其它任何属于 base 模板的东东. #}
-        <div class="container-fluid">
+        <div class="container-fluid" style="margin-left: -30px">
             <div class="row-fluid">
-                <div class="span9">
+                <div class="col-md-8">
                     {% block article %}
                         {% block article_title %}
                             {% comment %}
@@ -48,7 +48,7 @@
                     {% block article_menu %}{% endblock %}
                     {% block comments %}{% endblock %}
                 </div>
-                <div class="span3">
+                <div class="span3 col-md-offset-1">
                     {% block aside %}
                         {% block tags %}{% endblock %}
                     {% endblock %}
@@ -61,15 +61,15 @@
         <br>
         <div class="container">
             <div class="row">
-                <div class="varea col-md-8" style="margin-left: 77px">
+                <div class="varea col-md-8" style="margin-left: 45px">
                     <div class="nav_buttom fltflt">
                         <a href="{% url 'index' %}">返回首页</a>
                         <a href="">与我联系</a>
                         <a href="/admin">管理登录</a>
                     </div>
                  </div>
-                 <div class="copyRight enFort fltflt col-md-4" style="margin-left: -175px">
-                        <span>Designed by <b><i>Gooner</i></b><b>| Copyright 2012 - 2014</b></span>
+                 <div class="copyRight enFort fltflt col-md-5" style="margin-left: -175px">
+                        <span>Designed by <b><i>Gooner</i></b><b>&nbsp;| Copyright 2012 - 2014</b></span>
                  </div>
 
             </div>

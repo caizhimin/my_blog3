@@ -13,5 +13,6 @@ urlpatterns = patterns('czmblog.views',
     url(r'^czm_blog_delete/(?P<blog_id>\d+)/$', 'czm_blog_delete', name='czm_blog_delete'),
     url(r'^czm_blog_comment/(?P<blog_id>\d+)/$', 'czm_blog_comment_add', name='czm_blog_comment_add'),
     url(r'^contact/$', 'czm_blog_contact', name='contact'),
+    url(r'^about/$', 'czm_blog_about', name='about'),
 
 )

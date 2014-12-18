@@ -242,3 +242,7 @@ def czm_blog_comment_add(request, blog_id):
 
 def czm_blog_contact(request):
     return render_to_response('contact.html')
+
+
+def czm_blog_about(request):
+    return render_to_response('about.html')

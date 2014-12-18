@@ -5,6 +5,7 @@
 {% block title%}{{ blog.title|title }}{% endblock %}
 
 {% block article %}
+    <br><br><br><br>
     <div class="content">
         <div class="topBox">
             <div class="timeBox fltflt enFort textCenter">
@@ -27,6 +28,7 @@
             <p>contents:{{ blog.content|safe }}</p>
         </div>
     </div>
+    <hr>
 {% endblock %}
 
 {% block comments %}
@@ -35,48 +37,54 @@
             <div class="comment_title">
                <h3>有{{ comment_count }}条留言:</h3>
             </div>
-
+            <br>
             {% for comment in comments %}
-                <div class="commentatorInfo bg2">
-                    来自{{ comment.ip_address }}的用户：{{ comment.author }} 发表于{{ comment.publish_time|date:'Y-m-d H:m:s' }}
+                <div class="commentatorInfo bg2" style="background: #dcdcdc;height: 40px;line-height: 40px;text-indent: 2%;border-radius: 10px">
+                    来自<span class="text-danger">{{ comment.ip_address }}</span>的用户：<a class="glyphicon glyphicon-user"></a>{{ comment.author }} 发表于{{ comment.publish_time|date:'Y-m-d H:m:s' }}
                 </div>
-                <div class="cmtContent fs14 bg1">
+                <div class="text-primary bg-info" style="height:50px;line-height: 50px;text-indent: 2%;border-radius: 10px" >
                     {{ comment.comment }}
                 </div>
+                <br>
+
         {% endfor %}
+
         </div>
+
     {% else %}
-        <div class="comment_box">
+        <div class="comment_box text-danger">
             <h3>看帖不回，内地轮回</h3>
         </div>
     {% endif %}
 
-
+    <br>
     <div class="comment_box">
         <div class="comment_title">
-            <span class="">您可以在下面填写留言:</span>
+            <span class="h3">您可以在下面填写留言:</span>
         </div>
+        <br>
         <div class="背景色">
             <div class="bg1" id="contact-from_box">
                 <form action="{% url 'czm_blog_comment_add' blog.id %}" method="post" >
                     {% csrf_token %}
-                    <div>
-                        <input maxlength="50" name="comment_name" placeholder="您的姓名" type="text">
+                    <div class="form-group">
+                        <input class="form-control" maxlength="50" name="comment_name" placeholder="您的姓名" type="text" style="width: 40%">
                     </div>
 
-                    <div>
-                        <input maxlength="75" name="comment_email" placeholder="您的邮箱地址" type="text">
+                    <div class="form-group">
+                        <input class="form-control" maxlength="75" name="comment_email" placeholder="您的邮箱地址" type="text" style="width: 40%">
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" maxlength="200" name="comment_website" placeholder="您的个人网址" type="text" style="width: 40%">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" cols="40" rows="5" name="comment" placeholder="期待您的评论"></textarea>
                     </div>
                     <div>
-                        <input maxlength="200" name="comment_website" placeholder="您的个人网址" type="text">
-                    </div>
-                    <div>
-                        <textarea cols="40" rows="5" name="comment" placeholder="期待您的评论"></textarea>
-                    </div>
-                    <div>
-                        <button type="submit">提交</button>
+                        <button class="btn btn-primary" type="submit">提交</button>
                     </div>
                 </form>
+                <br><br>
             </div>
         </div>
 
