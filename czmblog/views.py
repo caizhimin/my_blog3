@@ -2,7 +2,7 @@
 from django.shortcuts import render_to_response
 from django.http import Http404, HttpResponseRedirect
 from django.template import RequestContext
-from czmblog.models import Blog, Tag, Author, Comments
+from czmblog.models import Blog, Tag, Author, Comments, Feedback
 from czmblog.form import CzmBlogForm, TagForm
 import random
 # Create your views here.
@@ -241,7 +241,17 @@ def czm_blog_comment_add(request, blog_id):
 
 
 def czm_blog_contact(request):
-    return render_to_response('contact.html')
+    if request.method == 'POST':
+        name = request.POST.get('feedback_name')
+        email = request.POST.get('feedback_email')
+        content = request.POST.get('feedback_content')
+        if request.META.get('HTTP_X_FORWARDED_FOR', None):  # 获取评论者的IP地址
+            feedback_ip_address = request.META['HTTP_X_FORWARDED_FOR']
+        else:
+            feedback_ip_address = request.META['REMOTE_ADDR']
+        Feedback.objects.get_or_create(name=name, email=email, feedback_content=content, ip_address=feedback_ip_address)
+        return HttpResponseRedirect('/czmblog/contact')
+    return render_to_response('contact.html', context_instance=RequestContext(request))
 
 
 def czm_blog_about(request):

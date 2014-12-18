@@ -56,10 +56,10 @@
     <article class="content-main">
     <div class="col-md-12">
         {% for czmblog in czmblogs %}
-            <h4><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></h4>
+            <h4 class="h3"><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></h4>
             <p class="muted">
                 {% for tag in czmblog.tags.all %}
-                    <i class="icon-tag"></i><small>{{ tag }}</small>
+                    <i class="glyphicon glyphicon-tag"></i><small>{{ tag }}</small>
                 {% endfor %}
             </p>
             <div>{{ czmblog.content|safe}}</div>

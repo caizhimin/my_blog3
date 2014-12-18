@@ -14,3 +14,6 @@ padding:0px;
 float:left;
 width:50%;
 }
+
+.left-radius{border-top-left-radius: 20px;border-bottom-left-radius: 20px}
+.right-radius{border-top-right-radius:20px;border-bottom-right-radius:20px}
