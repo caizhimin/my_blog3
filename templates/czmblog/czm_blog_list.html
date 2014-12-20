@@ -37,7 +37,7 @@
                 {% endfor %}
             </p>
             <div>{{ search_blog.content|safe}}</div>
-            <div class="row-fluid">
+            <div class="">
                 <div class="span3">
                     <p class="muted"><i class="icon-time"></i>
                         <small>{{ search_blog.publish_time|date:'Y-m-d H:m:s' }}</small>
@@ -85,9 +85,10 @@
 
 
 {% block aside %}
-    <div style="margin-left: 680px">
+
+
     <a class="btn" href="{# {% url 'add_czm_blog' %} #}"></a>
-    <form action="" method="get" id="search_form" style="margin-left: 40px;width: 500px">
+    <form action="" method="get" id="search_form" style="">
         <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客" style="height: 30px;width: 180px">
         <span class="" onclick="$('#search_form').submit();" id="search_icon"><i class="glyphicon glyphicon-search"></i></span>
     </form>
@@ -95,7 +96,7 @@
         <img src="/static/img/rss.png" width="20%" style="margin-right: 10px;margin-left: -8px;">
         <a class="" href="" style="margin-left: 5px">订阅我的博客</a>
     </div>
-    <div></div>
+
 
 
     {% block tags %}
@@ -140,7 +141,7 @@
         </ul>
     </div>
 {% endblock %}
-</div>
+
 
 
 

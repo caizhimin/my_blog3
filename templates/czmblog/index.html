@@ -57,7 +57,7 @@
                     {% for last_blog_by_publish_date in last_blogs_by_publish_date %}
                         <li style="padding: 5px">
                             <a href="{% url 'czm_blog_show' last_blog_by_publish_date.id  %}">
-                                {{ last_blog_by_publish_date.title }}</a>
+                                {{ last_blog_by_publish_date.title|truncatechars:'18' }}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -68,7 +68,7 @@
                     {% for random_five_blog in random_five_blogs %}
                         <li style="padding: 5px">
                             <a href="{% url 'czm_blog_show' random_five_blog.id  %}">
-                                {{ random_five_blog.title }}</a>
+                                {{ random_five_blog.title|truncatechars:'18' }}</a>
                         </li>
                     {% endfor %}
                 </ul>

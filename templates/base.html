@@ -26,9 +26,11 @@
     {% block content %}
 {#        这个区块用来放置页面正文内容. 任何页面正文内容都可能不一样. 它不 包含任何站点导航, #}
 {#        信息头, 页脚, 或其它任何属于 base 模板的东东. #}
-        <div class="container-fluid" style="margin-left: -30px">
-            <div class="row-fluid">
+        <div class="container" style="margin-left: -30px">
+            <div class="row">
                 <div class="col-md-8">
+                    <div class="row">
+                    <div class="col-md-12">
                     {% block article %}
                         {% block article_title %}
                             {% comment %}
@@ -45,11 +47,16 @@
 {#                            blog内容#}
                         {% endblock %}
                     {% endblock %}
-
+                    </div>
+                    </div>
+                    <div class="row">
+                    <div class="col-md-12">
                     {% block article_menu %}{% endblock %}
                     {% block comments %}{% endblock %}
+                    </div>
+                    </div>
                 </div>
-                <div class="span3 col-md-offset-1">
+                <div class="col-md-4" style="margin-top: 100px">
                     {% block aside %}
                         {% block tags %}{% endblock %}
                     {% endblock %}

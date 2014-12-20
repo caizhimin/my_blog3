@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee1da05f-0784-4cf9-b6ce-a42c98dd3221" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/rss.png" />
+    <list default="true" readonly="true" id="ee1da05f-0784-4cf9-b6ce-a42c98dd3221" name="Default" comment="v1.0 finish">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/czmblog/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.css.map" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.min.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/fonts/glyphicons-halflings-regular.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LearnSkill2/static/js/bootstrap.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_list.html" afterPath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" afterPath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/templates/base.html" afterPath="$PROJECT_DIR$/../LearnSkill2/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/czmblog/urls.py" afterPath="$PROJECT_DIR$/czmblog/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/czmblog/views.py" afterPath="$PROJECT_DIR$/czmblog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blog_base.html" afterPath="$PROJECT_DIR$/templates/blog_base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/czmblog/czm_blog_list.html" afterPath="$PROJECT_DIR$/templates/czmblog/czm_blog_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" afterPath="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/czmblog/index.html" afterPath="$PROJECT_DIR$/templates/czmblog/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" afterPath="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/templates/base.html" afterPath="$PROJECT_DIR$/../LearnSkill2/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/my_blog1.iml" afterPath="$PROJECT_DIR$/.idea/my_blog1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py" afterPath="$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" afterPath="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/style.css" afterPath="$PROJECT_DIR$/static/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/czmblog/urls.py" afterPath="$PROJECT_DIR$/czmblog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/czmblog/views.py" afterPath="$PROJECT_DIR$/czmblog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/czmblog/index.html" afterPath="$PROJECT_DIR$/templates/czmblog/index.html" />
     </list>
     <ignored path="my_blog1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,7 +49,7 @@
     <SUITE FILE_PATH="coverage/my_blog1$ex_qrcode.coverage" NAME="ex_qrcode Coverage Results" MODIFIED="1418893167399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Custom_old_version/Custom/activitys/utils" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -60,12 +60,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="czm_blog_list.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/czmblog/czm_blog_list.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/czmblog/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5208334" vertical-offset="258" max-vertical-offset="2340">
-              <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
+            <state vertical-scroll-proportion="-11.791667" vertical-offset="767" max-vertical-offset="1380">
+              <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="czm_blog_show.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/czmblog/czm_blog_show.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8802817" vertical-offset="150" max-vertical-offset="1560">
+              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,29 +106,39 @@
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/django_wsgi.py" />
         <option value="$PROJECT_DIR$/my_blog_uwsgi.xml" />
-        <option value="$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teacher_show.html" />
         <option value="$PROJECT_DIR$/../LearnSkill2/LearnSkill/urls.py" />
         <option value="$PROJECT_DIR$/../LearnSkill2/templates/base.html" />
-        <option value="$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py" />
-        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_list.html" />
-        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" />
-        <option value="$PROJECT_DIR$/templates/czmblog/index.html" />
-        <option value="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/blog_base.html" />
         <option value="$PROJECT_DIR$/../Custom_old_version/Custom/activitys/utils/ex_qrcode.py" />
-        <option value="$PROJECT_DIR$/static/css/style.css" />
         <option value="$PROJECT_DIR$/czmblog/urls.py" />
         <option value="$PROJECT_DIR$/czmblog/views.py" />
         <option value="$PROJECT_DIR$/templates/czmblog/about.html" />
         <option value="$PROJECT_DIR$/templates/czmblog/contact.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_list.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/activity_app/urls.py" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/activity_app/views.py" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_result.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/static/css/style.css" />
+        <option value="$USER_HOME$/Downloads/拜师学艺(1)/Untitled.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/index.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_submit.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/learnskill_app/views.py" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teacher_show.html" />
+        <option value="$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teachers_list.html" />
+        <option value="$PROJECT_DIR$/czmblog/models.py" />
+        <option value="$PROJECT_DIR$/templates/blog_base.html" />
         <option value="$PROJECT_DIR$/templates/czmblog/czm_blog_list.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/templates/czmblog/index.html" />
+        <option value="$PROJECT_DIR$/templates/czmblog/czm_blog_show.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="169" />
-    <option name="y" value="33" />
+    <option name="x" value="153" />
+    <option name="y" value="43" />
     <option name="width" value="1192" />
     <option name="height" value="831" />
   </component>
@@ -150,16 +176,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="my_blog1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -172,7 +188,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Custom_old_version" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo/dannysite.com-master" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -183,9 +199,185 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../LearnSkill2/templates/activity_app" />
+      <recent name="$PROJECT_DIR$/../LearnSkill2/static/img" />
       <recent name="$PROJECT_DIR$/static/img" />
       <recent name="$PROJECT_DIR$/../LearnSkill2/static" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/cms</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/cms/css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/cms/css/pages.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/bg_pattern.jpg</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/bg_left_white.gif</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/cc_active_nav.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/glyphicons-halflings-white-nav.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/glyphicons-halflings-white-shadow.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/drag-handle.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/img/ajax-loader.gif</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/jquery-1.8.3.min.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/sortables.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/suit-form-confirm.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/jquery.autosize-min.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/suit.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/js/djangocms.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/css/bootstrap.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/css/bootstrap.min.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/img</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/img/glyphicons-halflings-white.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/img/glyphicons-halflings.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/img/glyphicons-halflings-white-shadow.png</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/js/bootstrap.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/bootstrap/js/bootstrap.min.js</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/djangocms.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/left-column.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/mixins.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/header.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/form.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/breadcrumb.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/table.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/box.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/login.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/actionlist.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/calendar.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/pagination.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/tabs.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/datepicker.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/list.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/ui/left-nav.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/variables.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/print.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/footer.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/djangocms</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/djangocms/list.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/filer.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/sticky-footer.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/less/suit.less</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/css/djangocms.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/css/filer.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/suit/css/suit.css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/admin</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/admin/css</PATH>
+            <PATH vcs="svn" revision="0">$PROJECT_DIR$/../LearnSkill2/static/css/admin/css/forms.css</PATH>
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -391,6 +583,7 @@
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" cleanupOnStartRun="true">
     <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
   </component>
   <component name="SvnFileUrlMappingImpl">
     <option name="myMappingRoots">
@@ -436,25 +629,74 @@
       <created>1418895094524</created>
       <updated>1418895094524</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="v1.0 finished">
+      <created>1418903386316</created>
+      <updated>1418903386316</updated>
+    </task>
+    <task id="LOCAL-00007" summary="v1.0 finish">
+      <created>1418905995382</created>
+      <updated>1418905995382</updated>
+    </task>
+    <task id="LOCAL-00008" summary="v1.0 finish">
+      <created>1418906336914</created>
+      <updated>1418906336914</updated>
+    </task>
+    <task id="LOCAL-00009" summary="v1.0 finish">
+      <created>1418909811323</created>
+      <updated>1418909811323</updated>
+    </task>
+    <task id="LOCAL-00010" summary="v1.0 finish">
+      <created>1418909819176</created>
+      <updated>1418909819176</updated>
+    </task>
+    <task id="LOCAL-00011" summary="v1.0 finish">
+      <created>1418909833207</created>
+      <updated>1418909833207</updated>
+    </task>
+    <task id="LOCAL-00012" summary="v1.0 finish">
+      <created>1418910568247</created>
+      <updated>1418910568247</updated>
+    </task>
+    <task id="LOCAL-00013" summary="v1.0 finish">
+      <created>1418911170197</created>
+      <updated>1418911170197</updated>
+    </task>
+    <task id="LOCAL-00014" summary="v1.0 finish">
+      <created>1418912753752</created>
+      <updated>1418912753752</updated>
+    </task>
+    <task id="LOCAL-00015" summary="v1.0 finish">
+      <created>1418912819562</created>
+      <updated>1418912819562</updated>
+    </task>
+    <task id="LOCAL-00016" summary="v1.0 finish">
+      <created>1418958359029</created>
+      <updated>1418958359029</updated>
+    </task>
+    <task id="LOCAL-00017" summary="111">
+      <created>1418974959034</created>
+      <updated>1418974959034</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="169" y="33" width="1192" height="831" extended-state="0" />
+    <frame x="153" y="43" width="1192" height="831" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3369418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32205683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Properties" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33558863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24869566" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33558863" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32746956" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882273" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2573913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32746956" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -476,300 +718,432 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="111" />
     <MESSAGE value="UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="UI" />
+    <MESSAGE value="v1.0 finished" />
+    <MESSAGE value="111" />
+    <MESSAGE value="v1.0 finish11" />
+    <MESSAGE value="33" />
+    <MESSAGE value="v1.0 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.0 finish" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/django_wsgi.py">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="180">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_blog_uwsgi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2044" max-vertical-offset="2490">
+        <state vertical-scroll-proportion="-15.458853" vertical-offset="6199" max-vertical-offset="6600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teacher_show.html">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/dblog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="3075">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/learnskill_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2235" max-vertical-offset="3780">
+        <state vertical-scroll-proportion="-0.6626506" vertical-offset="275" max-vertical-offset="690">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/dblog/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="240">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
+        <state vertical-scroll-proportion="0.34931508" vertical-offset="57" max-vertical-offset="495">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/dblog/index_m.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12765957" vertical-offset="0" max-vertical-offset="470">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/django_wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/my_blog_uwsgi.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="330">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teacher_show.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4503464" vertical-offset="645" max-vertical-offset="3075">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/learnskill_app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.8905907" vertical-offset="2235" max-vertical-offset="3780">
+        <state vertical-scroll-proportion="-0.7294118" vertical-offset="310" max-vertical-offset="885">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="95460">
+        <state vertical-scroll-proportion="0.32467532" vertical-offset="0" max-vertical-offset="462">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5446224" vertical-offset="238" max-vertical-offset="675">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/core/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state vertical-scroll-proportion="-0.9415584" vertical-offset="675" max-vertical-offset="2580">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/core/decorators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/LearnSkill/urls.py">
+    <entry file="file:///Library/Python/2.7/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+        <state vertical-scroll-proportion="-0.8030303" vertical-offset="911" max-vertical-offset="3225">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.107551485" vertical-offset="238" max-vertical-offset="825">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="e#0#51#0" expanded="false" />
+            <element signature="e#0#29#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/dblog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6089743" vertical-offset="1527" max-vertical-offset="2490">
-          <caret line="153" column="26" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/dsite/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1800">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/dsite/view.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13921113" vertical-offset="0" max-vertical-offset="540">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state vertical-scroll-proportion="-0.26726058" vertical-offset="240" max-vertical-offset="1335">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/ueditor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/static/site/v3/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.032467533" vertical-offset="150" max-vertical-offset="1530">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1560">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/base/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="439">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/base/theme_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../demo/dannysite.com-master/src/templates/base/theme_base_m.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17084283" vertical-offset="0" max-vertical-offset="439">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/static/suit/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8997773" vertical-offset="7381" max-vertical-offset="76695">
+          <caret line="519" column="0" selection-start-line="519" selection-start-column="0" selection-end-line="519" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/LearnSkill_uwsgi.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44520548" vertical-offset="0" max-vertical-offset="438">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/拜师学艺(1)/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8021978" vertical-offset="1165" max-vertical-offset="1620">
+          <caret line="102" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/activity_app/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/activity_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5714286" vertical-offset="175" max-vertical-offset="630">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+          <folding>
+            <element signature="e#14#68#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47319347" vertical-offset="1117" max-vertical-offset="2070">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="225">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/take_apprentice.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.103211" vertical-offset="1079" max-vertical-offset="1680">
+          <caret line="104" column="17" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_submit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46469247" vertical-offset="456" max-vertical-offset="900">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="420">
-          <caret line="11" column="116" selection-start-line="11" selection-start-column="100" selection-end-line="11" selection-end-column="116" />
+        <state vertical-scroll-proportion="0.10250569" vertical-offset="0" max-vertical-offset="439">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/activity_app/activity_show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="450">
-          <caret line="19" column="80" selection-start-line="19" selection-start-column="80" selection-end-line="19" selection-end-column="80" />
+        <state vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="375">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/glyphicons-halflings-white.png">
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/learnskill_app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5" vertical-offset="480" max-vertical-offset="3210">
+          <caret line="55" column="36" selection-start-line="55" selection-start-column="36" selection-end-line="55" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/LearnSkill/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45356372" vertical-offset="1725" max-vertical-offset="2490">
+          <caret line="130" column="1" selection-start-line="130" selection-start-column="1" selection-end-line="130" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/static/img/icon.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/glyphicons-halflings.png">
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/static/img/topimg.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/czmblog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3854" max-vertical-offset="95460">
-          <caret line="266" column="10" selection-start-line="266" selection-start-column="1" selection-end-line="266" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="3945">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/czmblog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.485294" vertical-offset="896" max-vertical-offset="1335">
-          <caret line="71" column="71" selection-start-line="71" selection-start-column="71" selection-end-line="71" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/czmblog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.682353" vertical-offset="0" max-vertical-offset="1290">
-          <caret line="76" column="100" selection-start-line="76" selection-start-column="100" selection-end-line="76" selection-end-column="100" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Custom_old_version/Custom/activitys/utils/ex_qrcode.py">
+    <entry file="file://$PROJECT_DIR$/my_blog/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32967034" vertical-offset="0" max-vertical-offset="455">
-          <caret line="10" column="97" selection-start-line="10" selection-start-column="97" selection-end-line="10" selection-end-column="97" />
+        <state vertical-scroll-proportion="-2.1058316" vertical-offset="975" max-vertical-offset="1800">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/admin/change_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38732395" vertical-offset="3210" max-vertical-offset="6315">
+          <caret line="225" column="16" selection-start-line="225" selection-start-column="16" selection-end-line="225" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teachers_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="145" max-vertical-offset="990">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05459057" vertical-offset="113" max-vertical-offset="540">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="10" max-vertical-offset="510">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/take_master.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="30.0" vertical-offset="720" max-vertical-offset="2325">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/take_master_result.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LearnSkill2/templates/learnskill_app/teacher_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3325" vertical-offset="857" max-vertical-offset="3150">
+          <caret line="66" column="35" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/blog_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="675">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5744681" vertical-offset="0" max-vertical-offset="470">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding />
+        <state vertical-scroll-proportion="0.4783599" vertical-offset="0" max-vertical-offset="675">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/czmblog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6545842" vertical-offset="776" max-vertical-offset="1245">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="1260">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/czmblog/czm_blog_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4625" vertical-offset="750" max-vertical-offset="2355">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#form#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#a#0;n#ul#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.708334" vertical-offset="469" max-vertical-offset="1455">
+          <caret line="58" column="60" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/czmblog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.791667" vertical-offset="767" max-vertical-offset="1380">
+          <caret line="70" column="75" selection-start-line="70" selection-start-column="75" selection-end-line="70" selection-end-column="75" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/czmblog/czm_blog_show.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.125" vertical-offset="888" max-vertical-offset="1560">
-          <caret line="69" column="44" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/czmblog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4477612" vertical-offset="0" max-vertical-offset="469">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/czmblog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93421054" vertical-offset="3354" max-vertical-offset="3945">
-          <caret line="252" column="53" selection-start-line="252" selection-start-column="53" selection-end-line="252" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.8802817" vertical-offset="150" max-vertical-offset="1560">
+          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
           <folding>
-            <element signature="e#13#60#0" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#2;n#form#0;n#div#0;n#div#1;n#div#4;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/czmblog/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41666666" vertical-offset="105" max-vertical-offset="1005">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding>
-            <element signature="e#80#105#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/czmblog/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1388889" vertical-offset="0" max-vertical-offset="795">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-          <folding>
-            <element signature="e#258#282#0#HTML" expanded="true" />
-            <element signature="e#377#400#0#HTML" expanded="true" />
-            <element signature="e#522#546#0#HTML" expanded="true" />
-            <element signature="e#608#679#0#HTML" expanded="true" />
-            <element signature="e#702#721#0#HTML" expanded="true" />
-            <element signature="e#824#848#0#HTML" expanded="true" />
-            <element signature="e#990#1015#0#HTML" expanded="true" />
-            <element signature="e#1284#1302#0#HTML" expanded="true" />
-            <element signature="e#1499#1517#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/czmblog/czm_blog_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5208334" vertical-offset="258" max-vertical-offset="2340">
-          <caret line="61" column="53" selection-start-line="61" selection-start-column="53" selection-end-line="61" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
