@@ -56,10 +56,10 @@
     <article class="content-main">
     <div class="col-md-12">
         {% for czmblog in czmblogs %}
-            <h4 class="h3"><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></h4>
+            <p class="h3"><a href="{% url 'czm_blog_show' czmblog.id %}">{{ czmblog.title }}</a></p>
             <p class="muted">
                 {% for tag in czmblog.tags.all %}
-                    <i class="glyphicon glyphicon-tag"></i><small>{{ tag }}</small>
+                    <a class="glyphicon glyphicon-tag">{{ tag }}</a>
                 {% endfor %}
             </p>
             <div>{{ czmblog.content|safe}}</div>
@@ -89,7 +89,7 @@
 
     <a class="btn" href="{# {% url 'add_czm_blog' %} #}"></a>
     <form action="" method="get" id="search_form" style="">
-        <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客" style="height: 30px;width: 180px">
+        <input class="xnorminput" id="search" name="search" type="text" placeholder="搜索博客" style="margin-left:15%;height: 30px;width: 73%">
         <span class="" onclick="$('#search_form').submit();" id="search_icon"><i class="glyphicon glyphicon-search"></i></span>
     </form>
     <div class="rssBox bg1 mt10 text-center" style="margin-top: 30px">
