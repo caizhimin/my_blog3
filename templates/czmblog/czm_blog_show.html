@@ -10,14 +10,15 @@
 {#    <br><br>#}
 {#{% endblock %}#}
 {% block article %}
+
     <br><br><br><br>
-        <div>
+    <div>
         <div class="topBox" style="">
 
                 <span class="fs36" id="time_year">{{ blog.publish_time|date:'Y' }}</span>
                 <span class="fs24" id="time_date">{{ blog.publish_time|date:'Nd' }}</span>
             </div>
-            <div class="infoBox" fltrt>
+            <div class="infoBox" >
                 <div class="" id="blog_title">
                     <a href="{% url 'czm_blog_show' blog.id %}"><p class="h3">{{ blog.title }}</p></a>
                 </div>
@@ -29,14 +30,16 @@
                 </div>
             <br>
             </div>
-        </div>
-        <div class="contentBox bg1">
-            <p>{{ blog.content|safe }}</p>
-        </div>
+
+        {% autoescape off %}
+            {{ blog.content }}
+        {% endautoescape %}
 </div>
     <hr>
 
 {% endblock %}
+
+
     {% block comments %}
         {% if comment_count %}
             <div class="comment_box">
